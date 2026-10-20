@@ -1,0 +1,224 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports.ts": "always",
+    },
+    "files.autoSaveWhenNoErrors": true,
+    "git.autofetch": true,
+    "editor.linkedEditing": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "editor.inlineSuggest.edits.allowCodeShifting": "horizontal",
+    "explorer.confirmDelete": false,
+    "dotnetAcquisitionExtension.existingDotnetPath": [],
+    "omnisharp.dotnetPath": "/usr/local/share/dotnet/sdk/8.0.413/",
+    "omnisharp.sdkPath": "/usr/local/share/dotnet/sdk/8.0.413/",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.openRepositoryInParentFolders": "never",
+    "idf.hasWalkthroughBeenShown": true,
+    "redhat.telemetry.enabled": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "jdk.telemetry.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+    "trailing-spaces.includeEmptyLines": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.detectJdksAtStart": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.maxConcurrentBuilds": 8,
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "java.jdt.ls.java.home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/Users/mac/.sdkman/candidates/java/11.0.30-tem"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/Users/mac/.sdkman/candidates/java/17.0.19-tem"
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+            "default": true
+        }
+    ],
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+                "-il"
+            ],
+            "env": {
+                "JAVA_HOME": "/Users/mac/.sdkman/candidates/java/21.0.11-tem"
+            }
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/Users/mac/.sdkman/candidates/java/21.0.11-tem"
+        }
+    ],
+    "java.import.gradle.java.home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+    "rsp-ui.rsp.java.home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "cSpell.userWords": [
+        "Hmac",
+        "PAYSTACK",
+        "Powertype",
+        "sumtotal",
+        "taskservice"
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "chat.editing.confirmEditRequestRemoval": false,
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "app/(tabs)/user/home/index.tsx"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "dart.flutterSdkPath": "/Users/mac/Project/zijela/IosRunner/flutter-install/flutter",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "[dockercompose]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "files.associations": {
+        "*.ts": "typescript"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.selectedModel": "opus",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pdf": "pdf.preview"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.initialHint": false,
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.editor.enablePreview": false,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "vscode-office.editorTheme": "Github Dark",
+    "terminal.integrated.focusAfterRun": "terminal"
+}
