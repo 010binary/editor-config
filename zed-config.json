@@ -14,15 +14,13 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/root/app"
-          ]
-        }
-      ]
-    }
+          "paths": ["/root/app"],
+        },
+      ],
+    },
   ],
   "outline_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "git_panel": {
     "dock": "right",
@@ -64,23 +62,30 @@
     "java": {
       "settings": {
         "java_home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
-        "lombok_support": true
+        "lombok_support": true,
       },
       "initialization_options": {
         "settings": {
           "java": {
             "configuration": {
               "runtimes": [
-                { "name": "JavaSE-17", "path": "/Users/mac/.sdkman/candidates/java/17.0.19-tem" },
-                { "name": "JavaSE-21", "path": "/Users/mac/.sdkman/candidates/java/21.0.11-tem", "default": true }
-              ]
+                {
+                  "name": "JavaSE-17",
+                  "path": "/Users/mac/.sdkman/candidates/java/17.0.19-tem",
+                },
+                {
+                  "name": "JavaSE-21",
+                  "path": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+                  "default": true,
+                },
+              ],
             },
             "import": { "maven": { "enabled": true } },
             "format": { "enabled": true },
-            "saveActions": { "organizeImports": false }
-          }
-        }
-      }
+            "saveActions": { "organizeImports": false },
+          },
+        },
+      },
     },
     "vtsls": {
       "settings": {
@@ -97,35 +102,36 @@
       },
       "enable_lsp_tasks": true,
     },
-    "jdtls": {
-      "settings": {
-        "java_home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
-        "lombok_support": true,
-      },
-      "initialization_options": {
-        "settings": {
-          "java": {
-            "configuration": {
-              "runtimes": [
-                {
-                  "name": "JavaSE-21",
-                  "path": "/Users/mac/.sdkman/candidates/java/current",
-                  "default": true,
-                },
-              ],
-            },
-            "import": { "maven": { "enabled": true } },
-            "format": { "enabled": true },
-            "saveActions": { "organizeImports": false },
-          },
-        },
-      },
-    },
+    // "jdtls": {
+    //   "settings": {
+    //     "java_home": "/Users/mac/.sdkman/candidates/java/21.0.11-tem",
+    //     "lombok_support": true,
+    //   },
+    //   "initialization_options": {
+    //     "settings": {
+    //       "java": {
+    //         "configuration": {
+    //           "runtimes": [
+    //             {
+    //               "name": "JavaSE-21",
+    //               "path": "/Users/mac/.sdkman/candidates/java/current",
+    //               "default": true,
+    //             },
+    //           ],
+    //         },
+    //         "import": { "maven": { "enabled": true } },
+    //         "format": { "enabled": true },
+    //         "saveActions": { "organizeImports": false },
+    //       },
+    //     },
+    //   },
+    // },
   },
   "languages": {
     "Java": {
       "tab_size": 4,
       "hard_tabs": false,
+      "language_servers": ["java", "!jdtls", "..."],
     },
   },
   "agent": {
